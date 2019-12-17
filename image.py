@@ -1,8 +1,27 @@
 from PIL import ExifTags, Image
+
 # file formats that can be 'read' by PIL
-FILETYPES = ['.bmp', '.dib', '.dcx', '.gif', '.im', '.jpg',
-             '.jpe', '.jpeg', '.pcd', '.pcx', '.png', '.pbm',
-             '.pgm', '.ppm', '.psd', '.tif', '.tiff', '.xbm', '.xpm']
+FILETYPES = [
+    '.bmp',
+    '.dib',
+    '.dcx',
+    '.gif',
+    '.im',
+    '.jpg',
+    '.jpe',
+    '.jpeg',
+    '.pcd',
+    '.pcx',
+    '.png',
+    '.pbm',
+    '.pgm',
+    '.ppm',
+    '.psd',
+    '.tif',
+    '.tiff',
+    '.xbm',
+    '.xpm',
+]
 
 
 def orientate(im):
