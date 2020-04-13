@@ -1,6 +1,7 @@
 .idea/
 images.txt
 test_images/
+slideshow.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

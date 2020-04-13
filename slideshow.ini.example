@@ -1,0 +1,5 @@
+[slideshow]
+imagedir=/Users/hp/foto/
+time_per_picture = 12
+animate = 1
+framerate = 60.0
