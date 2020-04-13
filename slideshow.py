@@ -13,7 +13,12 @@ from configparser import ConfigParser
 from PIL import ExifTags, Image
 
 import pyglet
-from pyglet.window import key
+while 1:
+    try:
+        from pyglet.window import key
+        break
+    except:
+        print( "Window not yet available" )
 
 FILETYPES = (
     '.bmp',
