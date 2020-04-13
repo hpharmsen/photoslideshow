@@ -53,7 +53,10 @@ def adjust_rotation(image_file):
             PILimg = PILimg.rotate(270, expand=True)
         else:  # orientation == 8
             PILimg = PILimg.rotate(90, expand=True)
-        PILimg.save(image_file)
+        try:
+            PILimg.save(image_file)
+        except:
+            pass
 
 
 class Photo:
